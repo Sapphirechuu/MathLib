@@ -1,0 +1,12 @@
+﻿  mathUtilities.cpp
+c:\users\s189075\source\repos\mathlib\mathlib\mathutilities.h(49): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\s189075\source\repos\mathlib\mathlib\mathutilities.cpp(37): error C2169: 'abs': intrinsic function, cannot be defined
+  matrices.cpp
+c:\users\s189075\source\repos\mathlib\mathlib\mathutilities.h(49): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\s189075\source\repos\mathlib\mathlib\matrices.cpp(87): warning C4805: '==': unsafe mix of type 'bool' and type 'const float' in operation
+c:\users\s189075\source\repos\mathlib\mathlib\matrices.cpp(103): warning C4805: '==': unsafe mix of type 'bool' and type 'const float' in operation
+  transform2d.cpp
+c:\users\s189075\source\repos\mathlib\mathlib\mathutilities.h(49): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  vec2.cpp
+c:\users\s189075\source\repos\mathlib\mathlib\mathutilities.h(49): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\s189075\source\repos\mathlib\mathlib\vec2.cpp(79): warning C4244: '=': conversion from 'double' to 'float', possible loss of data

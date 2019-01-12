@@ -12,7 +12,14 @@ T rand(T min, T max)
 {
 	int result = NULL;
 	result = seedr % max;
-	result += min;
+	if (result + min <= max)
+	{
+		result += min;
+	}
+	while (result < min)
+	{
+		result += min / result;
+	}
 	getRandSeed();
 	std::cout << result << std::endl;
 	return result;
@@ -27,7 +34,10 @@ T randDecimal(T min, T max)
 	{
 		result = (result / max);
 	}
-	result += min;
+	while (result < min)
+	{
+		result += min / result;
+	}
 	getRandSeed();
 	std::cout << result << std::endl;
 	return result;

@@ -2,7 +2,7 @@
 #include <iostream>
 #include <string>
 //PI
-const double PI = 3.141592653589793238;
+const double PI = 3.14159265358979323846;
 // Degree to Radians
 const double DEG_TO_RAD = PI / 180;
 // Radians to Degrees
@@ -41,7 +41,7 @@ namespace Tweening
 	inline T linearEase(float t, const T& b, const T& c, float d) 
 	{ 
 		return b + c * (t / d); 
-	} 
+	}  
 	
 	template <typename T>
 	inline T easeInSine(float t, const T& b, const T& c, float d)

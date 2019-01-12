@@ -19,7 +19,6 @@ int getRandSeed()
 	seedString += tempS[middle + 1];
 	seedString += tempS[middle + 2];
 	seedString += tempS[middle + 3];
-	seedr = atoi(seedString.c_str());
-	return seedr;
+	return seedr = atoi(seedString.c_str());
 }
 

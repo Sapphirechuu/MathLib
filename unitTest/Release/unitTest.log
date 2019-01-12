@@ -1,0 +1,4 @@
+﻿  main.cpp
+c:\users\s189075\source\repos\mathlib\mathlib\mathutilities.h(49): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\s189075\source\repos\mathlib\unittest\main.cpp(21): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+LINK : fatal error LNK1181: cannot open input file 'MathLib.lib'

@@ -39,21 +39,32 @@ int main()
 	assert("diff z", 1.0f, diff.z, 0.0001f);
 
 	seedRand(666666);
+	rand(1, 70);
+	rand(-50, 50);
+	rand(1, 2);
+	rand(1, 2);
+	rand(1, 2);
+	rand(1, 2);
+	rand(1, 2);
+	rand(1, 2);
+	rand(1, 2);
+	rand(1, 2);
+
 	randDecimal(1.2f, 20.0f);
 	randDecimal(1.2f, 20.0f);
 	randDecimal(1.2f, 20.0f);
 	randDecimal(1.2f, 20.0f);
 	randDecimal(1.2f, 20.0f);
+	randDecimal(1.2f, 20.0f); 
 	randDecimal(1.2f, 20.0f);
 	randDecimal(1.2f, 20.0f);
 	randDecimal(1.2f, 20.0f);
 	randDecimal(1.2f, 20.0f);
-	randDecimal(1.2f, 20.0f);
-	randDecimal(1.2f, 20.0f);
-	randDecimal(1.2f, 20.0f);
-	randDecimal(1.2f, 20.0f);
-	randDecimal(1.2f, 20.0f);
-	randDecimal(1.2f, 20.0f);
-	randDecimal(1.2f, 20.0f);
+	
+	vec2 f{ 1, 2 };
+	vec2 d{ 1, 2 };
+	vec2 e = f + d;
+	vec2 g;
+	g += e;
 	return 0;
 }
