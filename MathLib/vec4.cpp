@@ -82,12 +82,12 @@ vec4 vec4::operator-() const
 
 vec4::operator float*()
 {
-	return *this;
+	return &x;
 }
 
 vec4::operator const float*() const
 {
-	return *this;
+	return &x;
 }
 
 float vec4::magnitude() const

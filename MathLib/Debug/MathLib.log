@@ -1,3 +1,4 @@
-﻿  transform2d.cpp
+﻿  vec3.cpp
 c:\users\s189075\source\repos\mathlib\mathlib\mathutilities.h(49): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\s189075\source\repos\mathlib\mathlib\vec3.cpp(87): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
   MathLib.vcxproj -> C:\Users\s189075\source\repos\MathLib\Debug\MathLib.lib

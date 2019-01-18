@@ -65,12 +65,12 @@ vec2 vec2::operator-() const
 
 vec2::operator float*()
 {
-	return *this;
+	return &x;
 }
 
 vec2::operator const float*() const
 {
-	return *this;
+	return &x;
 }
 
 float vec2::magnitude() const

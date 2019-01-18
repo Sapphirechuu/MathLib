@@ -72,13 +72,13 @@ vec3 vec3::operator-() const
 }
 
 vec3::operator float*()
-{
-	return *this;
+{//return first value in vec
+	return &x;
 }
 
 vec3::operator const float*() const
 {
-	return *this;
+	return &x;
 }
 
 float vec3::magnitude() const
